@@ -82,7 +82,7 @@ while True:
 
                 if r2.status_code == 200:
                     z +=1
-                    print(z)
+                    #print(z)
                     s = r2.json()[1]['pattern']
 
                     for x in s:
